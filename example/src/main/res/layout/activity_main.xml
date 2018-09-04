@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xutonghuai.festec.example.ExampleActivity">
+
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/icon_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:text="I {fa-heart-o} to {fa-code} on {fa-android}" />
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/icon_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:text="{fa-coffee}" />
+
+
+
+</LinearLayout>
